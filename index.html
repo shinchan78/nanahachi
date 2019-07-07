@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>78</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="container">
+        <div class="header-title">
+          <div id="top-btn" class="header-logo">ナナハチルーム</div>
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-right">
+            <li>
+              <a href="#stamps">チャレンジ一覧</a>
+            </li>
+            <li>
+              <a href="#interview">インタビュー</a>
+            </li>
+            <li>
+              <a href="#contact">挑戦状</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- トップ部分 -->
+    <div class="top-section gray-section">
+      <div class="top-inner">
+        <div class="container">
+          <div class="top-description">
+            <h2>ようこそ！ナナハチルームへ！</h2>
+            <p>ナナハチShincan・Keichanの軌跡です。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- スライダー -->
+    <div id="stamps" class="stamps-section">
+      <div class="container">
+        <div class="section-title">
+          <h3>チャレンジ一覧</h3>
+        </div>
+        <div id="stamp-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#stamp-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#stamp-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#stamp-carousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item stamp-box active">
+              <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/shinchan78/20190707/20190707002245_120.jpg" class="stamp-image">
+              <h4>トータル78kmランニング！</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/shinchan78/20190707/20190707002249_120.jpg" class="stamp-image">
+              <h4>progateでLv.100！</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/shinchan78/20190707/20190707002312_120.jpg" class="stamp-image">
+              <h4>デザイン78時間チャレンジも！</h4>
+            </div>
+          </div>
+        </div>
+        <p>求めるのは応援 ナナハチの挑戦 ここで表現🔥<br>
+          応援は<a class="stamp-link" href="https://www.instagram.com/htok78/?r=nametag"> こちら</a>（instagram）から！
+        </p>
+      </div>
+    </div>
+
+    <!-- インタビュー -->
+    <div id="interview" class="interview-section">
+      <div class="interview-section-top gray-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>特別インタビュー</h3>
+          </div>
+          <img class="interview-image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/shinchan78/20190707/20190707002956_120.jpg">
+        </div>
+      </div>
+      <div class="interview-section-bottom">
+        <div class="container">
+          <div class="interview-box">
+            <h5>Q. 普段はどのような活動をされているのですか？</h5>
+                山にこもって修行しています。
+          </div>
+          <div class="interview-box">
+            <h5>Q. おふたりは、コード書いてますか？</h5>
+            コードを書いているんじゃありません、夢を描いてるんです。
+          </div>
+          <div class="interview-box">
+            <h5>Q.なぜナナハチという名前なんですか ？</h5>
+            ShinchanとKeichanの間が78マイルだからです、心かゼロ距離ですが。<br>
+
+          </div>
+          <div class="interview-box">
+            <h5>Q. 最後に、今後の活動展開について教えてください。</h5>
+            毎日ニュースをチェックしていてください。僕たちの活躍が報道されているはずです。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="contact-section gray-section">
+      <div class="contact-section-inner">
+        <div class="container">
+          <div class="section-title">
+            <h3>お問い合わせ</h3>
+          </div>
+          <div class="contact-form">
+            <h4>挑戦状を送る</h4>
+            <form>
+              <div class="error-message"></div>
+              <input type="text" name="name" placeholder="お名前" class="contact-name">
+              <div class="error-message"></div>
+              <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+              <div class="error-message"></div>
+              <textarea name="message" placeholder="メッセージ内容"></textarea>
+              <button type="submit" class="btn btn-contact">送信</button>
+            </form>
+          </div>
+          <div class="contact-about">
+            <h4>About Me</h4>
+            <p>熱い漢たち、以上。
+            </p>
+            <h4>Address</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>ユニバース
+            </p>
+            <p>
+              <i class="fa fa-phone"></i>イーディスにおつなぎください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="follow-us">
+        </div>
+        <div class="copyright">©2019-
+          ナナハチ
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
